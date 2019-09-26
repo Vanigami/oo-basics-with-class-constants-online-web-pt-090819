@@ -6,10 +6,11 @@ class Shoe
 
   def initualize(brand)
     @brand = brand
-    if BRANDS.include?(brand)
-  else
-    BRANDS << BRANDS
-  end
+     if 
+       BRANDS.include?(brand)
+    else
+       BRANDS << BRANDS
+    end
   end
 
   def cobble
