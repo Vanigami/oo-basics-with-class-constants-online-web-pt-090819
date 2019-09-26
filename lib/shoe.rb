@@ -4,7 +4,7 @@ class Shoe
   
   BRANDS = []
 
-  def initualize(brand)
+  def initialize(brand)
     @brand = brand
     BRANDS << brand unless BRANDS.include?(brand)
   end
